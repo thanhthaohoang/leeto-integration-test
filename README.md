@@ -8,7 +8,7 @@ The goal of the test is to check your ability to integrate a design using the fo
 
 ## ToDo
 
-To complete the test you will need to integrate the foolowing page.
+To complete the test you will need to integrate the following page.
 You should use [styled components](https://www.styled-components.com/docs/basics) in order to achieve this.
 You don't need to make the app dynamic, therefore you can use any data you want to populate the page.
 
@@ -19,7 +19,7 @@ For the design part you need to create a [figma account](https://help.figma.com/
 Your goal is to integrate [this view](https://www.figma.com/file/UDKlhGrPqtxdRGG0xNoVFj/Integration-Test?node-id=1%3A165) with a version with 5 data cards wich can be responsive on a smaller screen like [this](https://www.figma.com/file/UDKlhGrPqtxdRGG0xNoVFj/Integration-Test?node-id=2%3A126).
  
  The grid you will build for the cards need to work for 3 cards instead of 5.
- For 3 data cards, the design on stadard screen is [here](https://www.figma.com/file/UDKlhGrPqtxdRGG0xNoVFj/Integration-Test?node-id=2%3A459) and on a smaller screen [here](https://www.figma.com/file/UDKlhGrPqtxdRGG0xNoVFj/Integration-Test?node-id=2%3A613).
+ For 3 data cards, the design on standard screen is [here](https://www.figma.com/file/UDKlhGrPqtxdRGG0xNoVFj/Integration-Test?node-id=2%3A459) and on a smaller screen [here](https://www.figma.com/file/UDKlhGrPqtxdRGG0xNoVFj/Integration-Test?node-id=2%3A613).
 
 Good luck! 😎
  
