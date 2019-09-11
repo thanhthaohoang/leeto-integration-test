@@ -25,7 +25,7 @@ Good luck! 😎
  
 ## collaboration
 Feel free to ask if you have any question to the designer, he is here to help you integrate the view properly.
-[Contact](mailto:san@antonio.net)
+[Contact](mailto:manou@leclan.io)
 
 ## Basic scripts
 
