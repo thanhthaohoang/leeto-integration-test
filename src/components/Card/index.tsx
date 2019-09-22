@@ -3,23 +3,23 @@ import { Icon } from 'antd';
 import Text from '../Text';
 import { Card as CardType } from '../../types';
 
-import { Container, IconContainer, Title } from './styles';
+import { Container, IconContainer, Row, Title } from './styles';
 
-interface Props {
-  card: CardType
+interface CardProps {
+  card: CardType;
 }
 
-const Card = (props: Props) => (
+const Card = ({ card }: CardProps) => (
   <Container>
-    <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
-      <IconContainer background={props.card.color}>
-        <Icon type={props.card.iconName} style={{ fontSize: 18, color: props.card.color }} />
+    <Row>
+      <IconContainer background={card.color}>
+        <Icon type={card.iconName} style={{ fontSize: 18, color: card.color }} />
       </IconContainer>
       <div>
-        <Title>{props.card.title}</Title>
-        <Text text={props.card.description} />
+        <Title>{card.title}</Title>
+        <Text text={card.description} />
       </div>
-    </div>
+    </Row>
   </Container>
 );
 

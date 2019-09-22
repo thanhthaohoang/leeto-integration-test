@@ -1,5 +1,7 @@
 import React from 'react';
 import { Comment, Avatar, Form, Button, Input } from 'antd';
+import Text from '../Text';
+import { Container } from './styles';
 
 const { TextArea } = Input;
 
@@ -30,15 +32,18 @@ class CommentEditor extends React.Component {
 
   render() {
     return (
-      <Comment
-        avatar={
-          <Avatar
-            src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
-            alt="Han Solo"
-          />
-        }
-        content={this.renderEditor()}
-      />
+      <Container>
+        <Text text="Commentaires" style={{ fontSize: 16, color: '#171725', fontWeight: 'bold' }}/>
+        <Comment
+          avatar={
+            <Avatar
+              src="https://images.unsplash.com/photo-1474176857210-7287d38d27c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+              alt="Avatr"
+            />
+          }
+          content={this.renderEditor()}
+        />
+      </Container>
     )
   }
 };

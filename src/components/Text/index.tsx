@@ -1,16 +1,15 @@
 import React from 'react';
 import { Typography } from 'antd';
-import { grey } from '@ant-design/colors';
-
-const { Text: AntText } = Typography;
+import { AntText } from './styles';
 
 interface TextProps {
   text: string;
+  style?: React.CSSProperties;
 }
 
-const Text = (props: TextProps) => (
-  <AntText style={{ fontSize: 14, color: grey[7] }}>
-    {props.text}
+const Text = ({ text, style }: TextProps) => (
+  <AntText style={style}>
+    {text}
   </AntText>
 );
 

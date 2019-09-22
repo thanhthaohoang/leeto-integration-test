@@ -27,3 +27,9 @@ export const IconContainer = styled.div`
   background: ${props => props.background + '1A'}; // 1A in HEXA equals alpha 10%
   margin-right: 15px;
 `;
+
+export const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  flexWrap: wrap;
+`;
