@@ -1,15 +1,14 @@
 import React from 'react';
+import './App.css';
 import { red, magenta, purple, orange } from '@ant-design/colors';
 
 import { Button } from 'antd';
 import Layout from './components/Layout';
 import Cards from './components/Cards';
+import Desc from './components/Desc';
 import { Card } from './types';
 
 import { ContentHeader, Title } from './styles';
-
-// Ant design stylesheet
-import 'antd/dist/antd.css';
 
 const CARDS: Card[] = [
   {
@@ -53,6 +52,7 @@ const App: React.FC = () => {
           <Title>Subvention Sport</Title>
           <Button type="primary" icon="edit">Editer</Button>
         </ContentHeader>
+        <Desc />
         <Cards cards={CARDS} />
       </Layout>
     </div>

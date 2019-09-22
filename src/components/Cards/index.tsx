@@ -5,7 +5,6 @@ import { Cards as CardsProps } from '../../types';
 
 import { Col } from './style';
 
-
 const Cards = (props: CardsProps) => {
   const xl = props.cards.length >= 5 ? 5 : 24 / props.cards.length;
   const lg = props.cards.length >= 5 ? 6 : 24 / props.cards.length;

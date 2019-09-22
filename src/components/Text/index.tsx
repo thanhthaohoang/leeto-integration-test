@@ -9,7 +9,7 @@ interface TextProps {
 }
 
 const Text = (props: TextProps) => (
-  <AntText style={{ fontSize: 14, color: grey[7]}}>
+  <AntText style={{ fontSize: 14, color: grey[7] }}>
     {props.text}
   </AntText>
 );
