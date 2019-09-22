@@ -4,6 +4,7 @@ export const Title = styled.p`
   font-size: 24px;
   color: #171725;
   margin-bottom: 4px;
+  font-weight: 600;
 `;
 
 export const Container = styled.div`
@@ -31,5 +32,5 @@ export const IconContainer = styled.div`
 export const Row = styled.div`
   display: flex;
   flex-direction: row;
-  flexWrap: wrap;
+  flex-wrap: wrap;
 `;

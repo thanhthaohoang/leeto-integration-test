@@ -1,1 +1,5 @@
 @import '../node_modules/antd/dist/antd.css';
+
+.App {
+  font-family: 'Roboto';
+};
