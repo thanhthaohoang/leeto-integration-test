@@ -31,6 +31,7 @@ export const InfoContainer = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 16px;
 `;
 
 export const InfoText = styled.p`
@@ -39,5 +40,13 @@ export const InfoText = styled.p`
 `;
 
 export const Row = styled(AntRow)`
-  margin-bottom: 16px;
+  display: flex;
+  flex-wrap: wrap;
+
+  &>:first-child, &>:nth-child(2) {
+    margin-right: 18px;
+  }
+  & > * {
+    margin-bottom: 16px;
+  }
 `;

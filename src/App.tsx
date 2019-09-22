@@ -2,14 +2,13 @@ import React from 'react';
 import './App.css';
 import { red, magenta, purple, orange } from '@ant-design/colors';
 
-import { Breadcrumb, Button, Icon } from 'antd';
+import { Breadcrumb, Icon } from 'antd';
 import Layout from './components/Layout';
 import Cards from './components/Cards';
+import ContentHeader from './components/ContentHeader';
 import CommentEditor from './components/CommentEditor';
 import Desc from './components/Desc';
 import { Card } from './types';
-
-import { ContentHeader, Title } from './styles';
 
 const CARDS: Card[] = [
   {
@@ -54,11 +53,7 @@ const App: React.FC = () => {
             <span>Avantages</span>
           </Breadcrumb.Item>
         </Breadcrumb>
-        {/* TODO: Content Header compo */}
-        <ContentHeader>
-          <Title>Subvention Sport</Title>
-          <Button type="primary" icon="edit">Editer</Button>
-        </ContentHeader>
+        <ContentHeader />
         <Desc />
         <Cards cards={CARDS} />
         <CommentEditor />
