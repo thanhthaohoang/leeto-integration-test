@@ -5,6 +5,7 @@ export const ContentHeader = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 16px;
 `;
 
 export const Title = styled.h1`

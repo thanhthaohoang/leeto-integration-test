@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { red, magenta, purple, orange } from '@ant-design/colors';
 
-import { Button } from 'antd';
+import { Breadcrumb, Button, Icon } from 'antd';
 import Layout from './components/Layout';
 import Cards from './components/Cards';
 import CommentEditor from './components/CommentEditor';
@@ -48,6 +48,12 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <Layout>
+        <Breadcrumb>
+          <Breadcrumb.Item href="">
+            <Icon type="left" />
+            <span>Avantages</span>
+          </Breadcrumb.Item>
+        </Breadcrumb>
         {/* TODO: Content Header compo */}
         <ContentHeader>
           <Title>Subvention Sport</Title>
