@@ -5,6 +5,7 @@ import { red, magenta, purple, orange } from '@ant-design/colors';
 import { Button } from 'antd';
 import Layout from './components/Layout';
 import Cards from './components/Cards';
+import CommentEditor from './components/CommentEditor';
 import Desc from './components/Desc';
 import { Card } from './types';
 
@@ -54,6 +55,7 @@ const App: React.FC = () => {
         </ContentHeader>
         <Desc />
         <Cards cards={CARDS} />
+        <CommentEditor />
       </Layout>
     </div>
   );
